@@ -4,6 +4,8 @@ A custom, per-item bill splitter — like Splitwise, but you control exactly who
 
 **🔗 Live demo: [split-write.vercel.app](https://split-write.vercel.app/)**
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftanishqgandhi1908%2FsplitWrite)
+
 ## Features
 
 - **Bills, items, quantities & prices** — create a bill and add line items with quantity and unit price.
@@ -34,6 +36,10 @@ npm start
 ## Deployment
 
 Deployed on [Vercel](https://vercel.com/) at [split-write.vercel.app](https://split-write.vercel.app/). Since there's no backend, any static/Node host that supports Next.js works.
+
+Deploy your own copy in one click:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftanishqgandhi1908%2FsplitWrite)
 
 ## How the split works
 
