@@ -2,6 +2,8 @@
 
 A custom, per-item bill splitter — like Splitwise, but you control exactly who shares each item. Built with Next.js, TypeScript, and Tailwind CSS. All data is saved locally in your browser (localStorage); there is no backend.
 
+**🔗 Live demo: [split-write.vercel.app](https://split-write.vercel.app/)**
+
 ## Features
 
 - **Bills, items, quantities & prices** — create a bill and add line items with quantity and unit price.
@@ -28,6 +30,10 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run build
 npm start
 ```
+
+## Deployment
+
+Deployed on [Vercel](https://vercel.com/) at [split-write.vercel.app](https://split-write.vercel.app/). Since there's no backend, any static/Node host that supports Next.js works.
 
 ## How the split works
 
