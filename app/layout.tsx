@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Logo from "@/components/Logo";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -19,9 +20,7 @@ export default function RootLayout({
           <header className="border-b border-slate-200 bg-white">
             <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
               <Link href="/" className="flex items-center gap-2">
-                <span className="grid h-8 w-8 place-items-center rounded-lg bg-brand-500 text-sm font-bold text-white">
-                  S
-                </span>
+                <Logo className="h-8 w-8" />
                 <span className="text-lg font-semibold tracking-tight">
                   Split<span className="text-brand-600">Write</span>
                 </span>
